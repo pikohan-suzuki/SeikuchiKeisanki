@@ -3,4 +3,8 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="kansen">#286929</color>
+    <color name="kankou">#248CE6</color>
+    <color name="kanbaku">#B30000</color>
+    <color name="other_type">#DADADA</color>
 </resources>
