@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val transaction = supportFragmentManager.beginTransaction()
-        transaction.add(R.id.footer_layout,FooterMenuFragment::createInstance(this),"footer_menu_fragment")
-
+        transaction.add(R.id.footer_layout,FooterMenuFragment().createInstance(),"footer_menu_fragment")
+        transaction.commit()
     }
 
 
